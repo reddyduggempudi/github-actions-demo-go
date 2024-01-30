@@ -6,12 +6,3 @@ builds:
       - windows
     goarch:
       - amd64
-nfpms:
-- maintainer: Reddy <root@reddy.dev>
-  description: Sample project.
-  homepage: https://github.com/reddyduggempudi
-  license: MIT
-  formats:
-  - deb
-  - rpm
-  - apk
