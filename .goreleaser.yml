@@ -4,7 +4,6 @@ builds:
     goos:
       - linux
       - windows
-      - darwin
     goarch:
       - amd64
 nfpms:
@@ -13,4 +12,6 @@ nfpms:
   homepage: https://github.com/reddyduggempudi
   license: MIT
   formats:
-  - zip
+  - deb
+  - rpm
+  - apk
