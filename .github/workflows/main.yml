@@ -2,7 +2,7 @@ name: Golang-App-Workflow
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build-GoAppliation:
     runs-on: ubuntu-latest
