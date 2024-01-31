@@ -6,3 +6,6 @@ builds:
       - windows
     goarch:
       - amd64
+archive:
+  files:
+    - config.yaml
