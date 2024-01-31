@@ -7,5 +7,6 @@ builds:
     goarch:
       - amd64
 archives:
-  files:
-    - config.yaml
+  -
+    files:
+      - config.yaml
