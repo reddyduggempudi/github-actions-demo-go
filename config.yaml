@@ -1,0 +1,13 @@
+Data:
+  inputDir:  ./input                # Folder containing the files downloaded from financial sources to be transformed
+  outputDir: ./output               # Folder where the transformed filed are written
+  configDir: ../config              # Folder containing the configuration files
+
+LookupData:
+  orgCentersFile: orgcenters.csv    # File containing all the centers in various cities
+  causesFile: causes.csv            # File containing different causes
+  zipCodeFile: zipcodes.csv         # File containing Cities ZipCodes, geo-locations
+
+Logger:
+  logLevel: debug                   # Logging level for the logger. Available logging levels are - panic, fatal, error, warn, info, debug, trace.
+  logsDir: ./logs                   # Directory into which logs are written; logs are rotated automatically
