@@ -1,0 +1,631 @@
+{
+    "output": {
+      "name": "VTSeva",
+      "fields": [
+        {
+          "id": "DonationDate",
+          "name": "Donation Date",
+          "type": "date",
+          "format": "1/2/2006"
+        },
+        {
+          "id": "FirstName",
+          "name": "First Name",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "LastName",
+          "name": "Last Name",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "Address",
+          "name": "Address",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "City",
+          "name": "City",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "State",
+          "name": "State",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "Zip",
+          "name": "Zip",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "Country",
+          "name": "Country",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "PhoneNumber",
+          "name": "Phone Number",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "Email",
+          "name": "Email",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "DonationDate",
+          "name": "Donation Date",
+          "type": "date",
+          "format": "1/2/2006"
+        },
+        {
+          "id": "DonationAmount",
+          "name": "Donation Amount",
+          "type": "number",
+          "format": ""
+        },
+        {
+          "id": "MatchAmount",
+          "name": "Match Amount",
+          "type": "number",
+          "format": ""
+        },
+        {
+          "id": "ProcessingFee",
+          "name": "Processing Fee",
+          "type": "number",
+          "format": ""
+        },
+        {
+          "id": "MerchantFee",
+          "name": "Merchant Fee",
+          "type": "number",
+          "format": ""
+        },
+        {
+          "id": "Currency",
+          "name": "Currency",
+          "type": "string",
+          "format": ""
+        },
+        {
+          "id": "PaymentDate",
+          "name": "Payment Date",
+          "type": "date",
+          "format": "1/2/2006"
+        }
+      ]
+    },
+    "files": [
+      {
+        "file": {
+          "name": "Cybergrant",
+          "fields": [
+            {
+              "id": "CompanyName",
+              "name": "Company Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PassThroughAgent",
+              "name": "Pass-through Agent",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "CyberGrantsDonationID",
+              "name": "CyberGrants Donation ID",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "ProgramName",
+              "name": "Program Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonationStartDate",
+              "name": "Donation Start Date",
+              "type": "date",
+              "format": "1/2/2006"
+            },
+            {
+              "id": "DonationEndDate",
+              "name": "Donation End Date",
+              "type": "date",
+              "format": "1/2/2006"
+            },
+            {
+              "id": "DonationDesignation",
+              "name": "Donation Designation",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonationFrequency",
+              "name": "Donation Frequency",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonationAmount",
+              "name": "Donation Amount",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "DonationAmountCurrencyCode",
+              "name": "Donation Amount (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "MatchAmount",
+              "name": "Match Amount",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "MatchAmountCurrencyCode",
+              "name": "Match Amount (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PaymentFundingSource",
+              "name": "Payment Funding Source",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PaymentGrossAmount",
+              "name": "Payment Gross Amount",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "PaymentGrossAmountCurrencyCode",
+              "name": "Payment Gross Amount (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "MerchantFee",
+              "name": "Merchant Fee",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "MerchantFeeCurrencyCode",
+              "name": "Merchant Fee (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "ProcessingFee",
+              "name": "Processing Fee",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "ProcessingFeeCurrencyCode",
+              "name": "Processing Fee (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PaymentNetAmount",
+              "name": "Payment Net Amount",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "PaymentNetAmountCurrencyCode",
+              "name": "Payment Net Amount (Currency Code)",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PaymentNumber",
+              "name": "Payment Number",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PaymentDate",
+              "name": "Payment Date",
+              "type": "date",
+              "format": "1/2/2006"
+            },
+            {
+              "id": "PaymentMethod",
+              "name": "Payment Method",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorFirstName",
+              "name": "Donor First Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorLastName",
+              "name": "Donor Last Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorAddress",
+              "name": "Donor Address",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorCity",
+              "name": "Donor City",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorState",
+              "name": "Donor State",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorProvince",
+              "name": "Donor Province",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorZIPPostalCode",
+              "name": "Donor ZIP/Postal Code",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorCountry",
+              "name": "Donor Country",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorEmailAddress",
+              "name": "Donor Email Address",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorTelephone",
+              "name": "Donor Telephone",
+              "type": "string",
+              "format": ""
+            }
+          ]
+        },
+        "transform": [
+          {
+            "id": "FirstName",
+            "formula": "DonorFirstName"
+          },
+          {
+            "id": "LastName",
+            "formula": "DonorLastName"
+          },
+          {
+            "id": "Address",
+            "formula": "DonorAddress"
+          },
+          {
+            "id": "City",
+            "formula": "DonorCity"
+          },
+          {
+            "id": "State",
+            "formula": "DonorState"
+          },
+          {
+            "id": "Zip",
+            "formula": "DonorZIPPostalCode"
+          },
+          {
+            "id": "Country",
+            "formula": "DonorCountry"
+          },
+          {
+            "id": "PhoneNumber",
+            "formula": "DonorTelephone"
+          },
+          {
+            "id": "Email",
+            "formula": "DonorEmailAddress"
+          },
+          {
+            "id": "Company",
+            "formula": "CompanyName"
+          },
+          {
+            "id": "Project",
+            "formula": "ProgramName"
+          },
+          {
+            "id": "Comment",
+            "formula": "DonationDesignation"
+          },
+          {
+            "id": "Source",
+            "formula": "PaymentFundingSource"
+          },
+          {
+            "id": "DonationDate",
+            "formula": "DonationStartDate"
+          },
+          {
+            "id": "DonationAmount",
+            "formula": "DonationAmount"
+          },
+          {
+            "id": "MatchAmount",
+            "formula": "MatchAmount"
+          },
+          {
+            "id": "ProcessingFee",
+            "formula": "ProcessingFee"
+          },
+          {
+            "id": "MerchantFee",
+            "formula": "MerchantFee"
+          },
+          {
+            "id": "Currency",
+            "formula": "DonationAmountCurrencyCode"
+          },
+          {
+            "id": "PaymentDate",
+            "formula": "PaymentDate"
+          }
+        ]
+      },
+      {
+        "file": {
+          "name": "Benevity",
+          "fields": [
+            {
+              "id": "Company",
+              "name": "Company",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Project",
+              "name": "Project",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonationDate",
+              "name": "Donation Date",
+              "type": "date",
+              "format": "2006-01-02T15:04:05Z"
+            },
+            {
+              "id": "DonorFirstName",
+              "name": "Donor First Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonorLastName",
+              "name": "Donor Last Name",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Email",
+              "name": "Email",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Address",
+              "name": "Address",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "City",
+              "name": "City",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "StateProvince",
+              "name": "State/Province",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "PostalCode",
+              "name": "Postal Code",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Activity",
+              "name": "Activity",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Comment",
+              "name": "Comment",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Transaction ID",
+              "name": "Transaction ID",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "DonationFrequency",
+              "name": "Donation Frequency",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Currency",
+              "name": "Currency",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "ProjectRemoteID",
+              "name": "Project Remote ID",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Source",
+              "name": "Source",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "Reason",
+              "name": "Reason",
+              "type": "string",
+              "format": ""
+            },
+            {
+              "id": "TotalDonationToBeAcknowledged",
+              "name": "Total Donation to be Acknowledged",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "MatchAmount",
+              "name": "Match Amount",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "CauseSupportFee",
+              "name": "Cause Support Fee",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "MerchantFee",
+              "name": "Merchant Fee",
+              "type": "number",
+              "format": ""
+            },
+            {
+              "id": "FeeComment",
+              "name": "Fee Comment",
+              "type": "string",
+              "format": ""
+            }
+          ]
+        },
+        "transform": [
+          {
+            "id": "FirstName",
+            "formula": "DonorFirstName"
+          },
+          {
+            "id": "LastName",
+            "formula": "DonorLastName"
+          },
+          {
+            "id": "Address",
+            "formula": "Address"
+          },
+          {
+            "id": "City",
+            "formula": "City"
+          },
+          {
+            "id": "State",
+            "formula": "StateProvince"
+          },
+          {
+            "id": "Zip",
+            "formula": "PostalCode"
+          },
+          {
+            "id": "Country",
+            "formula": "uppercase('usa')"
+          },
+          {
+            "id": "PhoneNumber",
+            "formula": ""
+          },
+          {
+            "id": "Email",
+            "formula": "Email"
+          },
+          {
+            "id": "Company",
+            "formula": "Company"
+          },
+          {
+            "id": "Project",
+            "formula": "Project"
+          },
+          {
+            "id": "Comment",
+            "formula": "Comment"
+          },
+          {
+            "id": "Source",
+            "formula": "Source"
+          },
+          {
+            "id": "DonationDate",
+            "formula": "DonationDate"
+          },
+          {
+            "id": "DonationAmount",
+            "formula": "TotalDonationToBeAcknowledged"
+          },
+          {
+            "id": "MatchAmount",
+            "formula": "MatchAmount"
+          },
+          {
+            "id": "ProcessingFee",
+            "formula": "CauseSupportFee"
+          },
+          {
+            "id": "MerchantFee",
+            "formula": "MerchantFee"
+          },
+          {
+            "id": "Currency",
+            "formula": "Currency"
+          },
+          {
+            "id": "PaymentDate",
+            "formula": ""
+          }
+        ]
+      }
+    ]
+  }
